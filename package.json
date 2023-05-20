@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "postinstall": "dotnet tool restore",
-    "dev": "dotnet fable App.fsproj -e .jsx --watch -o ./ --run next dev",
-    "build": "dotnet fable App.fsproj -e .jsx && next build"
+    "start": "dotnet fable App.fsproj -e .fs.jsx --watch -o ./ --run next dev",
+    "build": "dotnet fable App.fsproj -e .fs.jsx && next build"
   },
   "dependencies": {
     "next": "^13.0.5",
