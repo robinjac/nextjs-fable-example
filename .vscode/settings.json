@@ -1,6 +1,6 @@
 {
   "files.exclude": {
-    "**/*.js": true,
+    "app/**/*.js": true,
     "obj":true,
     "bin": true,
     ".next": true,

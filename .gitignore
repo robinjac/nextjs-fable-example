@@ -32,7 +32,7 @@ yarn-error.log*
 .fake
 
 # Fable jsx compiled output
-*.js
+app/**/*.js
 
 # typescript
 *.tsbuildinfo
