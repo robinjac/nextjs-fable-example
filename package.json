@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "postinstall": "dotnet tool restore",
-    "start": "dotnet fable App.fsproj -e .fs.jsx --watch -o ./ --run next dev",
-    "build": "dotnet fable App.fsproj -e .fs.jsx && next build"
+    "start": "dotnet fable App.fsproj --watch -o ./ --run next dev",
+    "build": "dotnet fable App.fsproj && next build"
   },
   "dependencies": {
     "react": "18.2.0",
