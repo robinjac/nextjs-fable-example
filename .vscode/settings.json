@@ -4,6 +4,8 @@
     "**/*.fs.jsx": true,
     "obj":true,
     "bin": true,
-    ".next": true
+    ".next": true,
+    "fable_modules": true,
+    "node_modules": true
   },
 }
