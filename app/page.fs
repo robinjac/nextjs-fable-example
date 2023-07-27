@@ -1,14 +1,12 @@
-module Pages.Index
+module App.Page
 
-open Fable.Core
+open Feliz
 open Fable.Core.JsInterop
 
-let home () =
-    JSX.jsx
-        $"""
-    <div>
-        <p>Hello World</p>
-    </div>
-    """
+[<ReactComponent>]
+let Page () =
+    Html.div [
+        Html.span "Hello, world"
+    ]
 
-home |> exportDefault //exportDefault is important for next js
+exportDefault Page
